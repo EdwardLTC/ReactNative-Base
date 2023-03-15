@@ -3,7 +3,6 @@ import { persistor, store } from 'reduxs/store'
 import React from 'react'
 import { SafeAreaProvider } from 'react-native-safe-area-context'
 import { Provider } from 'react-redux'
-
 import { PersistGate } from 'redux-persist/lib/integration/react'
 
 const App = () => {
